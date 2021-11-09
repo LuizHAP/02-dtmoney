@@ -16,6 +16,14 @@ createServer({
           category: "Food",
           createAt: new Date(),
         },
+        {
+          id: 2,
+          title: "Transactions 2",
+          amount: 500,
+          type: "deposit",
+          category: "House",
+          createAt: new Date(),
+        },
       ];
     });
   },
